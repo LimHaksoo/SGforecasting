@@ -1,0 +1,111 @@
+Args in experiment:
+Namespace(is_training=1, train_only=False, model_id='DLinear', data='custom', root_path='./data/', data_path='traffic.csv', features='M', target='OT', freq='h', checkpoints='./checkpoints/', seq_len=336, label_len=48, pred_len=72, num_workers=10, itr=1, train_epochs=10, batch_size=16, patience=3, learning_rate=0.05, des='Exp', loss='mse', lradj='type1', use_amp=False, use_gpu=True, gpu=0, use_multi_gpu=False, device_idx=7, test_flop=False, insert_noise=False, noise_scale=0.5)
+>>>>>>>start training : DLinear_custom_ftM_sl336_pl72_Exp_0>>>>>>>>>>>>>>>>>>>>>>>>>>
+train 11873
+val 1685
+test 3437
+	iters: 100, epoch: 1 | loss: 1.0326267
+	speed: 0.4914s/iter; left time: 3597.7793s
+	iters: 200, epoch: 1 | loss: 1.0405368
+	speed: 0.4771s/iter; left time: 3445.3532s
+	iters: 300, epoch: 1 | loss: 0.9179266
+	speed: 0.4820s/iter; left time: 3432.6699s
+	iters: 400, epoch: 1 | loss: 0.9946671
+	speed: 0.4824s/iter; left time: 3387.0354s
+	iters: 500, epoch: 1 | loss: 1.0414908
+	speed: 0.4810s/iter; left time: 3328.7597s
+	iters: 600, epoch: 1 | loss: 0.9600534
+	speed: 0.4821s/iter; left time: 3288.6373s
+	iters: 700, epoch: 1 | loss: 1.0296710
+	speed: 0.4744s/iter; left time: 3188.7345s
+Epoch: 1 cost time: 357.5927469730377
+Epoch: 1, Steps: 742 | Train Loss: 1.1569605 Vali Loss: 1.2729552 Test Loss: 1.4742997
+Validation loss decreased (inf --> 1.272955).  Saving model ...
+Updating learning rate to 0.05
+Args in experiment:
+Namespace(is_training=1, train_only=False, model_id='DLinear', data='custom', root_path='./data/', data_path='traffic.csv', features='M', target='OT', freq='h', checkpoints='./checkpoints/', seq_len=336, label_len=48, pred_len=72, num_workers=10, itr=1, train_epochs=10, batch_size=16, patience=3, learning_rate=0.05, des='Exp', loss='mse', lradj='type1', use_amp=False, use_gpu=True, gpu=0, use_multi_gpu=False, device_idx=6, test_flop=False, insert_noise=False, noise_scale=0.5)
+>>>>>>>start training : DLinear_custom_ftM_sl336_pl72_Exp_0>>>>>>>>>>>>>>>>>>>>>>>>>>
+train 11873
+val 1685
+test 3437
+Killed
+	iters: 100, epoch: 2 | loss: 0.9043021
+	speed: 1.5146s/iter; left time: 9964.7332s
+	iters: 200, epoch: 2 | loss: 0.9394763
+	speed: 0.4825s/iter; left time: 3125.8344s
+	iters: 300, epoch: 2 | loss: 1.0304791
+	speed: 0.4872s/iter; left time: 3107.7341s
+	iters: 400, epoch: 2 | loss: 0.9875213
+	speed: 0.4968s/iter; left time: 3119.6220s
+	iters: 500, epoch: 2 | loss: 0.9531487
+	speed: 0.4959s/iter; left time: 3064.4038s
+	iters: 600, epoch: 2 | loss: 0.9599717
+	speed: 0.4916s/iter; left time: 2988.2543s
+	iters: 700, epoch: 2 | loss: 1.0337144
+	speed: 0.4966s/iter; left time: 2969.2164s
+Epoch: 2 cost time: 364.8366370201111
+Epoch: 2, Steps: 742 | Train Loss: 1.0011497 Vali Loss: 1.2479719 Test Loss: 1.4672061
+Validation loss decreased (1.272955 --> 1.247972).  Saving model ...
+Updating learning rate to 0.025
+	iters: 100, epoch: 3 | loss: 1.1167092
+	speed: 1.5512s/iter; left time: 9054.3773s
+	iters: 200, epoch: 3 | loss: 1.0311693
+	speed: 0.4890s/iter; left time: 2805.4470s
+	iters: 300, epoch: 3 | loss: 1.0000384
+	speed: 0.4827s/iter; left time: 2720.7301s
+	iters: 400, epoch: 3 | loss: 1.0370919
+	speed: 0.4908s/iter; left time: 2717.7584s
+	iters: 500, epoch: 3 | loss: 0.9895481
+	speed: 0.4887s/iter; left time: 2657.0671s
+	iters: 600, epoch: 3 | loss: 0.9856360
+	speed: 0.4904s/iter; left time: 2617.3401s
+	iters: 700, epoch: 3 | loss: 1.0359018
+	speed: 0.4925s/iter; left time: 2579.1020s
+Epoch: 3 cost time: 364.00414514541626
+Epoch: 3, Steps: 742 | Train Loss: 0.9995904 Vali Loss: 1.2617023 Test Loss: 1.4845428
+EarlyStopping counter: 1 out of 3
+Updating learning rate to 0.0125
+	iters: 100, epoch: 4 | loss: 0.9335030
+	speed: 1.5503s/iter; left time: 7898.9919s
+	iters: 200, epoch: 4 | loss: 0.9487923
+	speed: 0.4898s/iter; left time: 2446.3579s
+	iters: 300, epoch: 4 | loss: 0.9431198
+	speed: 0.4839s/iter; left time: 2368.8890s
+	iters: 400, epoch: 4 | loss: 0.9544141
+	speed: 0.4846s/iter; left time: 2323.7109s
+	iters: 500, epoch: 4 | loss: 0.9465691
+	speed: 0.4894s/iter; left time: 2297.6816s
+	iters: 600, epoch: 4 | loss: 0.9474572
+	speed: 0.4895s/iter; left time: 2249.1748s
+	iters: 700, epoch: 4 | loss: 0.9969404
+	speed: 0.4968s/iter; left time: 2233.1355s
+Epoch: 4 cost time: 363.76265358924866
+Epoch: 4, Steps: 742 | Train Loss: 1.0011844 Vali Loss: 1.2879533 Test Loss: 1.4630475
+EarlyStopping counter: 2 out of 3
+Updating learning rate to 0.00625
+	iters: 100, epoch: 5 | loss: 1.0087739
+	speed: 1.5509s/iter; left time: 6751.0803s
+	iters: 200, epoch: 5 | loss: 1.0393802
+	speed: 0.4867s/iter; left time: 2069.8905s
+	iters: 300, epoch: 5 | loss: 1.0965903
+	speed: 0.4868s/iter; left time: 2021.7604s
+	iters: 400, epoch: 5 | loss: 1.0264666
+	speed: 0.4947s/iter; left time: 2005.1980s
+	iters: 500, epoch: 5 | loss: 0.9687701
+	speed: 0.4970s/iter; left time: 1964.5745s
+	iters: 600, epoch: 5 | loss: 1.0265403
+	speed: 0.4974s/iter; left time: 1916.3007s
+	iters: 700, epoch: 5 | loss: 1.0238702
+	speed: 0.4975s/iter; left time: 1867.1396s
+Epoch: 5 cost time: 366.29909491539
+Epoch: 5, Steps: 742 | Train Loss: 1.0006421 Vali Loss: 1.3070586 Test Loss: 1.4743093
+EarlyStopping counter: 3 out of 3
+Early stopping
+>>>>>>>testing : DLinear_custom_ftM_sl336_pl72_Exp_0<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+test 3437
+Traceback (most recent call last):
+  File "/home/haksoo/forecasting_baseline/dlinear/run_longExp_tfscore.py", line 91, in <module>
+    exp.test(setting)
+  File "/home/haksoo/forecasting_baseline/dlinear/exp/exp_main_tfscore.py", line 192, in test
+    
+AttributeError: 'Namespace' object has no attribute 'model'
