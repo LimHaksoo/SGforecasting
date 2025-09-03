@@ -286,8 +286,10 @@ class CSDI_Forecasting(CSDI_base):
                 observed_mask, gt_mask
             )
 
+        total_input = cond_mask * observed_data
+
         side_info = self.get_side_info(observed_tp, cond_mask, feature_id)
-        predicted = self.score_fn(observed_data, side_info).permute(0, 2, 1)
+        predicted = self.score_fn(total_input, side_info).permute(0, 2, 1)
 
         return predicted, (observed_data.permute(0, 2, 1), observed_mask.permute(0, 2, 1))
 
